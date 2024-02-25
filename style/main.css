@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1250px;
+  width: 100%;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-label {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(81, 178, 81);
+}
+.form-input {
+  margin: 0 5px 0 20px;
+  padding-left: 10px;
+  max-width: 300px;
+  border: 2px solid rgb(83, 137, 83);
+  border-radius: 10px;
+  height: 40px;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(59, 146, 118);
+}
+.form-btn {
+  height: 40px;
+  width: 80px;
+  border: 2px solid rgb(83, 137, 83);
+  border-radius: 10px;
+  background-color: rgb(143, 197, 143);
+  color: rgb(83, 137, 83);
+}
+.form-btn:hover {
+  background-color: rgb(185, 217, 185);
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  text-align: center;
+  margin: 20px 30px;
+  gap: 10px;
+  justify-content: center;
+}
+.list-item {
+  background-color: #fff;
+  border: 2px solid rgb(59, 146, 118);
+  border-radius: 10px;
+  padding: 20px 0;
+  color: rgb(59, 146, 118);
+}/*# sourceMappingURL=main.css.map */
